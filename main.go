@@ -62,5 +62,7 @@ func main() {
 		circleLength()
 	case 3:
 		splitNumber()
+	default:
+		fmt.Print(`Wrong mode`)
 	}
 }
